@@ -1,0 +1,95 @@
+span {
+    text-decoration: underline;
+}
+.home > h1 {
+    font-family: cursive;
+    font-size: 80px;
+}
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hotpink;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,9,121,1) 24%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero div > img {
+    border-radius: 30%;
+}
+.hero div > h2 {
+    color: hotpink;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.skill1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+.skill2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.skills img {
+    border-radius: 40%;
+}
+.skills > h2 {
+    color: hotpink;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+.contact-title {
+    word-spacing: 10px;
+    color: hotpink;
+}
+center h4 {
+    color: hotpink;
+}
+h5 {
+    display: flex;
+}
+.nav > div > h5 > li > a {
+    color: hotpink;
+}
+footer > p {
+    color: whitesmoke;
+}
+footer {
+    margin-right: 500px;
+    width: 2000px;
+    background-color: darkmagenta;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
